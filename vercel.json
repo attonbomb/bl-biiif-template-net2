@@ -30,7 +30,7 @@
       ]
     },
     {
-      "source": "/bl-biiif-template-(.*)/(.*)",
+      "source": "/images/(.*)",
       "headers" : [
         {
           "key" : "Cache-Control",
