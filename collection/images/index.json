@@ -1,0 +1,263 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "http://localhost:86/biiif/collection/images/index.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "http://localhost:86/biiif/collection/images/index.json/canvas/0",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "http://localhost:86/biiif/collection/images/index.json/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:86/biiif/collection/images/index.json/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:86/biiif/collection/images/_starry_night_over_rhone/starry_night_over_the_rhone.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "label": {
+                  "@none": [
+                    "Starry Nighth over the Rhone"
+                  ]
+                },
+                "width": 5407,
+                "height": 4191,
+                "service": [
+                  {
+                    "@id": "http://localhost:86/biiif/collection/images/_starry_night_over_rhone/+tiles",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "http://localhost:86/biiif/collection/images/index.json/canvas/0"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "@none": [
+          "Starry Nighth over the Rhone"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "@none": [
+              "Artist"
+            ]
+          },
+          "value": {
+            "@none": [
+              "Vincent Van Gogh"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Year"
+            ]
+          },
+          "value": {
+            "@none": [
+              1888
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Catalogue"
+            ]
+          },
+          "value": {
+            "@none": [
+              "F474JH1592"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Medium"
+            ]
+          },
+          "value": {
+            "@none": [
+              "Oil on Canvas"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Dimensions"
+            ]
+          },
+          "value": {
+            "@none": [
+              "72.5 cm × 92 cm (28.5 in × 36.2 in)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Location"
+            ]
+          },
+          "value": {
+            "@none": [
+              "Musée d'Orsay, Paris"
+            ]
+          }
+        }
+      ],
+      "width": 5407,
+      "height": 4191,
+      "thumbnail": [
+        {
+          "id": "http://localhost:86/biiif/collection/images/_starry_night_over_rhone/thumb.jpg",
+          "type": "Image"
+        }
+      ]
+    },
+    {
+      "id": "http://localhost:86/biiif/collection/images/index.json/canvas/1",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "http://localhost:86/biiif/collection/images/index.json/canvas/1/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:86/biiif/collection/images/index.json/canvas/1/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:86/biiif/collection/images/_vincent/vincent.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "label": {
+                  "@none": [
+                    "Self-Portrait"
+                  ]
+                },
+                "width": 3141,
+                "height": 4096,
+                "service": [
+                  {
+                    "@id": "http://localhost:86/biiif/collection/images/_vincent/+tiles",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "http://localhost:86/biiif/collection/images/index.json/canvas/1"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "@none": [
+          "Self-Portrait"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "@none": [
+              "Artist"
+            ]
+          },
+          "value": {
+            "@none": [
+              "Vincent Van Gogh"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Year"
+            ]
+          },
+          "value": {
+            "@none": [
+              1889
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Catalogue"
+            ]
+          },
+          "value": {
+            "@none": [
+              "F474JH1592"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Medium"
+            ]
+          },
+          "value": {
+            "@none": [
+              "Oil on Canvas"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Dimensions"
+            ]
+          },
+          "value": {
+            "@none": [
+              "57.79 × 44.5 cm (22 3/4 × 17 1/2 in.)"
+            ]
+          }
+        },
+        {
+          "label": {
+            "@none": [
+              "Location"
+            ]
+          },
+          "value": {
+            "@none": [
+              "Collection of Mr. and Mrs. John Hay Whitney"
+            ]
+          }
+        }
+      ],
+      "width": 3141,
+      "height": 4096,
+      "thumbnail": [
+        {
+          "id": "http://localhost:86/biiif/collection/images/_vincent/thumb.jpg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "label": {
+    "@none": [
+      "Vincent"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "http://localhost:86/biiif/collection/pdf/index.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "http://localhost:86/biiif/collection/pdf/index.json/canvas/0",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "http://localhost:86/biiif/collection/pdf/index.json/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:86/biiif/collection/pdf/index.json/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:86/biiif/collection/pdf/_scienceandthepublic/scienceandthepublic.pdf",
+                "type": "PDF",
+                "format": "application/pdf",
+                "label": {
+                  "@none": [
+                    "_scienceandthepublic"
+                  ]
+                }
+              },
+              "target": "http://localhost:86/biiif/collection/pdf/index.json/canvas/0"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "@none": [
+          "_scienceandthepublic"
+        ]
+      }
+    }
+  ],
+  "label": {
+    "@none": [
+      "Science and the Public"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "license"
+        ]
+      },
+      "value": {
+        "@none": [
+          "http://creativecommons.org/licenses/by/4.0/"
+        ]
+      }
+    }
+  ],
+  "attribution": "Wellcome Collection"
+}

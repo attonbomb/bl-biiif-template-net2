@@ -1,0 +1,64 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "http://localhost:86/biiif/collection/audio/index.json",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "http://localhost:86/biiif/collection/audio/index.json/canvas/0",
+      "type": "Canvas",
+      "items": [
+        {
+          "id": "http://localhost:86/biiif/collection/audio/index.json/canvas/0/annotationpage/0",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://localhost:86/biiif/collection/audio/index.json/canvas/0/annotation/0",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://localhost:86/biiif/collection/audio/_onesmallstep/one-small-step.mp3",
+                "type": "Sound",
+                "format": "audio/mp3",
+                "label": {
+                  "@none": [
+                    "_onesmallstep"
+                  ]
+                }
+              },
+              "target": "http://localhost:86/biiif/collection/audio/index.json/canvas/0"
+            }
+          ]
+        }
+      ],
+      "label": {
+        "@none": [
+          "_onesmallstep"
+        ]
+      },
+      "duration": 12.953062
+    }
+  ],
+  "label": {
+    "@none": [
+      "One Small Step for Man"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "license"
+        ]
+      },
+      "value": {
+        "@none": [
+          "cc-by-nc"
+        ]
+      }
+    }
+  ],
+  "attribution": "NASA"
+}
