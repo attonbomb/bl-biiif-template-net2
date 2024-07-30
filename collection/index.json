@@ -10,7 +10,7 @@
       "id": "http://localhost:86/biiif/collection/3d/index.json",
       "type": "Manifest",
       "label": {
-        "@none": [
+        "en": [
           "Astronaut"
         ]
       }
@@ -19,7 +19,7 @@
       "id": "http://localhost:86/biiif/collection/video/index.json",
       "type": "Manifest",
       "label": {
-        "@none": [
+        "en": [
           "Big Buck Bunny"
         ]
       }
@@ -28,7 +28,7 @@
       "id": "http://localhost:86/biiif/collection/audio/index.json",
       "type": "Manifest",
       "label": {
-        "@none": [
+        "en": [
           "One Small Step for Man"
         ]
       }
@@ -37,7 +37,7 @@
       "id": "http://localhost:86/biiif/collection/pdf/index.json",
       "type": "Manifest",
       "label": {
-        "@none": [
+        "en": [
           "Science and the Public"
         ]
       }
@@ -46,15 +46,15 @@
       "id": "http://localhost:86/biiif/collection/images/index.json",
       "type": "Manifest",
       "label": {
-        "@none": [
+        "en": [
           "Vincent"
         ]
       }
     }
   ],
   "label": {
-    "@none": [
-      "collection"
+    "en": [
+      "BIIIF collection"
     ]
   }
 }
